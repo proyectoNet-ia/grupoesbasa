@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="es" class="overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Grupo ESBASA | Excelencia Textil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            position: relative;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+        }
+        ::selection {
+            background-color: #dc2626;
+            color: white;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-marble {
+            background-image: url('https://www.transparenttextures.com/patterns/white-marble.png');
+        }
+
+        /* Animación de Pulso con Brillo Exterior */
+        @keyframes cta-pulse {
+            0%, 100% { transform: scale(1); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+            50% { transform: scale(1.03); box-shadow: 0 10px 25px -5px rgba(220, 38, 38, 0.4); }
+        }
+
+        /* Animación de Destello (Shine) Interno */
+        @keyframes shine-loop {
+            0% { left: -150%; }
+            30% { left: 150%; }
+            100% { left: 150%; }
+        }
+
+        .btn-premium-loop {
+            position: relative;
+            overflow: hidden !important;
+            animation: cta-pulse 3s infinite ease-in-out;
+            isolation: isolate;
+            /* Fuerza el recorte perfecto en bordes redondeados */
+            -webkit-mask-image: -webkit-radial-gradient(white, black);
+        }
+
+        .btn-premium-loop::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -150%;
+            width: 60%;
+            height: 100%;
+            background: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.4) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: skewX(-25deg);
+            animation: shine-loop 4s infinite cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        /* Asegura que el texto esté siempre arriba del resplandor */
+        .btn-premium-loop span, 
+        .btn-premium-loop i {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "vite": "https://esm.sh/vite@^7.3.1"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <div id="root" class="overflow-x-hidden"></div>
+    <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Entry point para Node.js/Vite -->
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

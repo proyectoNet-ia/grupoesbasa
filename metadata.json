@@ -1,0 +1,19 @@
+{
+  "name": "Grupo ESBASA - Corporativo Textil",
+  "short_name": "ESBASA",
+  "description": "Líderes en soluciones textiles: Arcángel Ceremonias y Uniformes ESBASA. Calidad y elegancia mexicana de clase mundial.",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/google/material-design-icons/master/png/action/settings_ethernet/black/48dp/1x/outline_settings_ethernet_black_48dp.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "theme_color": "#0f172a",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "majorCapabilities": []
+}
