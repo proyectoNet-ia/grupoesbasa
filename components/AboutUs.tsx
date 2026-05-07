@@ -31,7 +31,7 @@ const AboutUs: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 md:gap-20 mb-20 md:mb-32">
           <div className="lg:w-1/2 text-center lg:text-left" data-aos="fade-up">
             <div className="inline-block px-4 py-1 mb-6 rounded-lg bg-blue-950 text-white text-[8px] md:text-[9px] font-black uppercase tracking-[0.3em]">
-              Sobre Grupo ESBASA
+              Grupo Espinoza Báez S.A. de C.V.
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-7xl font-black text-blue-950 mb-6 md:mb-8 tracking-tighter leading-[1] md:leading-[0.9] break-words">
               Más de 30 Años <br />
