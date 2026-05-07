@@ -122,7 +122,7 @@ const Navbar: React.FC = () => {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`relative px-3 py-2 text-[10px] font-black uppercase tracking-wider transition-all duration-300 group rounded-lg ${
+                  className={`relative px-3 py-2 text-[12px] font-black uppercase tracking-wider transition-all duration-300 group rounded-lg ${
                     isActive ? 'text-[#D92121] bg-[#D92121]/5' : 'text-blue-950 hover:bg-slate-50'
                   }`}
                 >
