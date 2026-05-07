@@ -107,17 +107,11 @@ const Navbar: React.FC = () => {
             onClick={(e) => handleNavClick(e, '#inicio')} 
             className="flex items-center gap-3 group relative z-[10000]"
           >
-            <div className="relative overflow-hidden w-9 h-9 md:w-11 md:h-11 bg-blue-950 rounded-xl flex items-center justify-center text-white font-black shadow-lg">
-              <span className="relative z-10 text-sm md:text-lg">E</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-base md:text-xl font-black tracking-tighter leading-none text-blue-950">
-                GRUPO <span className="text-[#D92121]">ESBASA</span>
-              </span>
-              <span className="text-[6px] md:text-[8px] uppercase tracking-[0.4em] font-bold opacity-60 text-blue-900 mt-1">
-                Excelencia Textil
-              </span>
-            </div>
+            <img 
+              src="/images/logo_de_esbasa.png" 
+              alt="Logo Grupo ESBASA" 
+              className="h-10 md:h-14 w-auto object-contain"
+            />
           </a>
 
           <div className="hidden lg:flex items-center space-x-0.5">
