@@ -46,7 +46,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen w-full overflow-x-hidden selection:bg-red-600 selection:text-white">
       <Navbar />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
       
       <main className="w-full overflow-x-hidden">
         {/* Seccion Inicio */}

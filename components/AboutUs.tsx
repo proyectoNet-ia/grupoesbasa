@@ -34,12 +34,12 @@ const AboutUs: React.FC = () => {
               Sobre Grupo ESBASA
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-7xl font-black text-blue-950 mb-6 md:mb-8 tracking-tighter leading-[1] md:leading-[0.9] break-words">
-              Excelencia que se <br />
-              <span className="text-[#D92121] italic font-serif">Siente al Tacto.</span>
+              Más de 30 Años <br />
+              <span className="text-[#D92121] italic font-serif">de Tradición.</span>
             </h2>
             <div className="space-y-6 mb-10">
               <p className="text-sm md:text-xl text-slate-600 leading-relaxed font-medium px-2 md:px-0">
-                Somos un holding textil que entiende que cada hilo cuenta una historia. Desde ceremonias sagradas hasta el uniforme institucional, Grupo ESBASA es maestría en cada puntada.
+                Somos un Grupo Empresarial Textil que entiende que cada hilo cuenta una historia. Desde ceremonias sagradas hasta el uniforme institucional, Grupo ESBASA es maestría en cada puntada.
               </p>
               <p className="text-sm md:text-lg text-slate-500 leading-relaxed font-medium px-4 md:px-0 opacity-80">
                 Nuestra infraestructura integra procesos de vanguardia con un control de calidad riguroso en cada etapa de producción. Nos enorgullece ser el aliado estratégico de cientos de instituciones que confían en nuestra durabilidad y diseño para representar su identidad ante el mundo.
@@ -49,7 +49,7 @@ const AboutUs: React.FC = () => {
           <div className="lg:w-1/2 w-full relative" data-aos="fade-left">
             <div className="relative z-10 rounded-3xl md:rounded-[3rem] overflow-hidden shadow-2xl">
               <img 
-                src="https://img.freepik.com/free-photo/woman-tailor-working-sewing-factory_1303-15847.jpg?t=st=1770756066~exp=1770759666~hmac=e3167714c9632d0534abebd800f5faf0fc32f71dfcf3cd33162eb62fbe55435a" 
+                src="/images/hero-bg.jpg" 
                 alt="Proceso Textil ESBASA" 
                 className="w-full h-[300px] md:h-[500px] object-cover"
               />
@@ -73,7 +73,7 @@ const AboutUs: React.FC = () => {
             </div>
             <h3 className="text-2xl md:text-4xl font-black text-blue-950 mb-6 tracking-tight">Nuestra Misión</h3>
             <p className="text-slate-600 text-sm md:text-lg leading-relaxed font-medium">
-              Ser líderes en la fabricación de productos ceremoniales y soluciones corporativas para las nuevas generaciones, satisfaciendo las necesidades de nuestros clientes con calidad, honradez y un precio justo, impulsando siempre el talento mexicano.
+              Ser líderes en la fabricación y manufactura de productos ceremoniales para las nuevas generaciones, satisfaciendo las necesidades de nuestros clientes con calidad y a un precio justo.
             </p>
           </div>
 
@@ -87,7 +87,7 @@ const AboutUs: React.FC = () => {
             </div>
             <h3 className="text-2xl md:text-4xl font-black text-blue-950 mb-6 tracking-tight">Nuestra Visión</h3>
             <p className="text-slate-600 text-sm md:text-lg leading-relaxed font-medium">
-              Ser el referente global de excelencia textil mexicana, reconocidos por nuestra capacidad de innovación, sostenibilidad y compromiso social, expandiendo nuestras marcas Arcángel y ESBASA Uniformes a nuevos mercados internacionales para el año 2030.
+              Ser el referente global de excelencia textil mexicana, reconocidos por nuestra capacidad de innovación, sostenibilidad y compromiso social, expandiendo nuestras marcas.
             </p>
           </div>
         </div>

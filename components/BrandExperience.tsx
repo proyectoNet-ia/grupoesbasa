@@ -14,7 +14,7 @@ const BrandExperience: React.FC = () => {
         >
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://img.freepik.com/free-photo/portrait-child-getting-ready-their-first-communion_23-2149378008.jpg" 
+              src="/images/ceremonias-bg.jpg" 
               alt="Ceremonias Arcángel Background" 
               className="w-full h-full object-cover transition-transform duration-[2000ms] md:group-hover:scale-110 grayscale-[30%] md:group-hover:grayscale-0"
             />
@@ -50,8 +50,8 @@ const BrandExperience: React.FC = () => {
         >
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://img.freepik.com/free-photo/portrait-successful-warehouse-worker-supervisor-with-crossed-arms-standing-large-storage-distribution-area_342744-1521.jpg" 
-              alt="ESBASA Uniformes Background" 
+              src="/images/uniformes-bg.jpg" 
+              alt="Uniformes ESBASA Background" 
               className="w-full h-full object-cover transition-transform duration-[2000ms] md:group-hover:scale-110 opacity-60 grayscale-[50%] md:group-hover:grayscale-0"
             />
           </div>
@@ -59,8 +59,8 @@ const BrandExperience: React.FC = () => {
           <div className="relative z-20 h-full flex flex-col items-end justify-center p-8 md:p-16 text-right ml-auto max-w-2xl">
             <span className="block text-[#D92121] font-black text-[9px] md:text-[10px] uppercase tracking-[0.5em] mb-4">Soluciones Corporativas</span>
             <h2 className="text-3xl md:text-6xl font-black text-white mb-4 tracking-tighter leading-none italic">
-              ESBASA<br />
-              <span className="text-[#D92121] not-italic">Uniformes</span>
+              Uniformes<br />
+              <span className="text-[#D92121] not-italic">ESBASA</span>
             </h2>
             <div className="w-12 h-1 bg-white mb-6 transition-all duration-700 md:group-hover:w-32 ml-auto"></div>
             <p className="text-blue-100 text-xs md:text-base font-medium max-w-xs mb-8">

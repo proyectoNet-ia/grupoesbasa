@@ -52,8 +52,8 @@ const StatItem: React.FC<StatItemProps> = ({ number, suffix, label, icon, delay 
 
 const Stats: React.FC = () => {
   const stats = [
-    { number: 20, suffix: '+', label: 'Años de Historia', icon: 'fa-calendar-check' },
-    { number: 500, suffix: '+', label: 'Clientes Felices', icon: 'fa-handshake' },
+    { number: 30, suffix: '+', label: 'Años de Historia', icon: 'fa-calendar-check' },
+    { number: 500, suffix: '+', label: 'Clientes Satisfechos', icon: 'fa-handshake' },
     { number: 1, suffix: 'M+', label: 'Prendas Anuales', icon: 'fa-shirt' },
     { number: 50, suffix: '+', label: 'Expertos Textiles', icon: 'fa-user-gear' },
   ];

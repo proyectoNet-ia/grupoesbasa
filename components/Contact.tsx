@@ -31,8 +31,7 @@ const Contact: React.FC = () => {
 
   const socialLinks = [
     { id: 'facebook-f', name: 'Facebook', url: 'https://www.facebook.com/CeremoniasArcangel/' },
-    { id: 'instagram', name: 'Instagram', url: 'https://www.instagram.com/ceremonias_arcangel/' },
-    { id: 'whatsapp', name: 'WhatsApp', url: 'https://wa.me/523525220671' }
+    { id: 'instagram', name: 'Instagram', url: 'https://www.instagram.com/ceremonias_arcangel/' }
   ];
 
   const validate = (): boolean => {
@@ -81,30 +80,30 @@ const Contact: React.FC = () => {
             
             <div className="space-y-8 relative z-10">
               <div className="flex items-center gap-5 group cursor-pointer">
-                <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-red-600 transition-colors">
-                  <i className="fa-solid fa-location-dot text-[#D92121] group-hover:text-white"></i>
+                <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-sky-600 transition-colors">
+                  <i className="fa-solid fa-location-dot text-sky-400 group-hover:text-white"></i>
                 </div>
                 <div>
                   <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest mb-1">Ubicación</p>
-                  <p className="text-sm font-medium">La Piedad, Michoacán, México.</p>
+                  <p className="text-sm font-medium">Igualdad #200 Ejido de Potrerillos, La Piedad, Michoacán, México. C.P.59310</p>
                 </div>
               </div>
               <div className="flex items-center gap-5 group cursor-pointer">
-                <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-red-600 transition-colors">
-                  <i className="fa-solid fa-phone text-[#D92121] group-hover:text-white"></i>
+                <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-sky-600 transition-colors">
+                  <i className="fa-solid fa-phone text-sky-400 group-hover:text-white"></i>
                 </div>
                 <div>
-                  <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest mb-1">Teléfono</p>
-                  <p className="text-sm font-medium">+52 (352) 522-0671</p>
+                  <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest mb-1">Call Center</p>
+                  <p className="text-sm font-medium">+52 352 168 1197</p>
                 </div>
               </div>
               <div className="flex items-center gap-5 group cursor-pointer">
-                <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-red-600 transition-colors">
-                  <i className="fa-solid fa-envelope text-[#D92121] group-hover:text-white"></i>
+                <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-sky-600 transition-colors">
+                  <i className="fa-solid fa-envelope text-sky-400 group-hover:text-white"></i>
                 </div>
                 <div>
                   <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest mb-1">Email</p>
-                  <p className="text-sm font-medium">ventas@grupoesbasa.com</p>
+                  <p className="text-sm font-medium">ventasesbasa@hotmail.com</p>
                 </div>
               </div>
             </div>

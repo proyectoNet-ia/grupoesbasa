@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
     <div className="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-white pt-32 md:pt-44 pb-20 md:pb-32">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://img.freepik.com/free-photo/woman-tailor-working-sewing-factory_1303-15847.jpg?t=st=1770756066~exp=1770759666~hmac=e3167714c9632d0534abebd800f5faf0fc32f71dfcf3cd33162eb62fbe55435a" 
+          src="/images/hero-bg.jpg" 
           alt="Textiles de Alta Gama ESBASA" 
           className="w-full h-full object-cover opacity-60 scale-110"
         />

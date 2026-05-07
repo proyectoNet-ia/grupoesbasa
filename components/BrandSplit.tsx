@@ -56,7 +56,7 @@ const BrandSplit: React.FC<BrandSplitProps> = ({ onSelect }) => {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://img.freepik.com/free-photo/portrait-successful-warehouse-worker-supervisor-with-crossed-arms-standing-large-storage-distribution-area_342744-1521.jpg?t=st=1770760639~exp=1770764239~hmac=d4320c9e702488b470b7bdb0d589ff6df05338742b8e750099406675e135ae42" 
-            alt="ESBASA Uniformes" 
+            alt="Uniformes ESBASA" 
             className="w-full h-full object-cover transition-transform duration-[2000ms] md:group-hover:scale-110 opacity-60 grayscale-[50%] md:group-hover:grayscale-0"
           />
         </div>
