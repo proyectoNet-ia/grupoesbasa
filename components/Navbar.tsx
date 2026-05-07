@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
             <img 
               src="/images/logo_de_esbasa.png" 
               alt="Logo Grupo ESBASA" 
-              className="h-10 md:h-14 w-auto object-contain"
+              className="h-[42px] md:h-[62px] w-auto object-contain"
             />
           </a>
 
