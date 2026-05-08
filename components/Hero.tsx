@@ -63,12 +63,12 @@ const Hero: React.FC = () => {
         
         <div className="max-w-3xl mx-auto mb-10 md:mb-14">
           <p 
-            className="text-[0.85rem] md:text-[1.15rem] text-slate-700 font-semibold leading-relaxed px-4"
+            className="text-[0.75rem] md:text-[1.05rem] text-slate-700 font-semibold leading-relaxed px-4"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            En <span className="text-blue-950 font-extrabold underline decoration-[#D92121] decoration-2 md:decoration-4">Grupo ESBASA</span>, fusionamos la elegancia de la alta costura con la robustez de la manufactura industrial. 
-            Calidad mexicana de clase mundial.
+            En <span className="text-blue-950 font-extrabold underline decoration-[#D92121] decoration-2 md:decoration-4">Grupo ESBASA</span> fusionamos la elegancia de la alta costura con la precisión de la manufactura industrial. 
+            Calidad mexicana con estándares de clase mundial.
           </p>
         </div>
         

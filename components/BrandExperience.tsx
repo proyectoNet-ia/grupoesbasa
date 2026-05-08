@@ -34,12 +34,12 @@ const BrandExperience: React.FC = () => {
               En Arcángel Ceremonias llevamos más de tres décadas en el ramo textil, fabricando y manufacturando productos ceremoniales con la dedicación y talento de muchas personas comprometidas con la calidad.
             </p>
             <a 
-              href="https://www.ceremoniasarcangel.com/catalogo"
+              href="https://www.ceremoniasarcangel.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-[#3E2723] font-black uppercase text-[9px] tracking-widest hover:text-[#C2B280] transition-colors"
             >
-              Explorar Colección <i className="fa-solid fa-arrow-right-long text-[#C2B280]"></i>
+              Explorar <i className="fa-solid fa-arrow-right-long text-[#C2B280]"></i>
             </a>
           </div>
         </div>

@@ -38,20 +38,26 @@ const AboutUs: React.FC = () => {
               <span className="text-[#D92121] italic font-serif">de Tradición.</span>
             </h2>
             <div className="space-y-6 mb-10">
-              <p className="text-sm md:text-xl text-slate-600 leading-relaxed font-medium px-2 md:px-0">
-                Somos un Grupo Empresarial Textil que entiende que cada hilo cuenta una historia. Desde ceremonias sagradas hasta el uniforme institucional, Grupo ESBASA es maestría en cada puntada.
+              <p className="text-xs md:text-lg text-slate-600 leading-relaxed font-bold px-2 md:px-0 text-justify md:text-left">
+                En Grupo ESBASA creemos que cada hilo representa compromiso, identidad y excelencia. Con más de 30 años de trayectoria en la industria textil, nos hemos consolidado como un corporativo sólido y visionario, integrado por diferentes marcas especializadas que comparten una misma filosofía: calidad, innovación y confianza en cada detalle.
               </p>
-              <p className="text-sm md:text-lg text-slate-500 leading-relaxed font-medium px-4 md:px-0 opacity-80">
-                Nuestra infraestructura integra procesos de vanguardia con un control de calidad riguroso en cada etapa de producción. Nos enorgullece ser el aliado estratégico de cientos de instituciones que confían en nuestra durabilidad y diseño para representar su identidad ante el mundo.
+              <p className="text-xs md:text-base text-slate-500 leading-relaxed font-medium px-4 md:px-0 opacity-80 text-justify md:text-left">
+                Nuestra experiencia abarca desde prendas para ceremonias y ocasiones especiales, hasta uniformes institucionales diseñados para proyectar profesionalismo y fortalecer la imagen de cada organización. Cada colección refleja la combinación perfecta entre tradición textil, diseño funcional y altos estándares de manufactura.
+              </p>
+              <p className="text-xs md:text-base text-slate-500 leading-relaxed font-medium px-4 md:px-0 opacity-80 text-justify md:text-left">
+                Contamos con una infraestructura de producción de alto nivel, procesos de vanguardia y estrictos controles de calidad en cada etapa, lo que nos permite ofrecer soluciones textiles duraderas, elegantes y competitivas. En Grupo ESBASA trabajamos con pasión, precisión y visión empresarial para convertirnos en el aliado estratégico de instituciones, distribuidores y marcas que buscan excelencia, respaldo y prestigio en cada prenda.
+              </p>
+              <p className="text-xs md:text-base text-slate-500 leading-relaxed font-bold px-4 md:px-0 text-justify md:text-left">
+                Más que fabricar textiles, construimos relaciones de confianza que trascienden generaciones.
               </p>
             </div>
           </div>
-          <div className="lg:w-1/2 w-full relative" data-aos="fade-left">
-            <div className="relative z-10 rounded-3xl md:rounded-[3rem] overflow-hidden shadow-2xl">
+          <div className="lg:w-1/2 w-full relative flex justify-center lg:justify-end" data-aos="fade-left">
+            <div className="relative z-10 rounded-3xl md:rounded-[3rem] overflow-hidden shadow-2xl w-full max-w-md">
               <img 
                 src="/images/hero-bg.jpg" 
                 alt="Proceso Textil ESBASA" 
-                className="w-full h-[300px] md:h-[500px] object-cover"
+                className="w-full aspect-square md:aspect-none md:h-[750px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-blue-950/60 to-transparent"></div>
               <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 text-white">
@@ -73,7 +79,7 @@ const AboutUs: React.FC = () => {
             </div>
             <h3 className="text-2xl md:text-4xl font-black text-blue-950 mb-6 tracking-tight">Nuestra Misión</h3>
             <p className="text-slate-600 text-sm md:text-lg leading-relaxed font-medium">
-              Ser líderes en la fabricación y manufactura de productos ceremoniales para las nuevas generaciones, satisfaciendo las necesidades de nuestros clientes con calidad y a un precio justo.
+              Ser líderes en la fabricación y manufactura de productos para las nuevas generaciones, satisfaciendo las necesidades de nuestros clientes. Creemos firmemente en el comercio justo y en la vocación de servir con valores fundamentales: calidad, honradez, amabilidad y especial atención a los detalles.
             </p>
           </div>
 
